@@ -1,0 +1,32 @@
+.search-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #59b7fa;
+    padding: 8px 15px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.widget{
+    width: 35%;
+    padding: 10px 20px;
+}
+
+.search-box input{
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.icons{
+    color: #59b7fa;
+}
+
+@media screen and (max-width: 800px){
+    .widget{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.post{
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+}
+
+.post-address{
+    padding: 3px 10px;
+}
+
+.post-address span{
+    margin-right: 10px;
+}
+
+.the-main-post{
+    padding: 10px;
+}
+
+.the-main-post p{
+    padding-bottom: 10px;
+}
+
+.the-main-post img{
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.comment-like{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding:0 10px 10px 10px;
+}
+
+.icons-size{
+    font-size: 20px !important;
+}
+
+.comments-text{
+    font-size: 14px;
+    margin-left: 10px;
+}

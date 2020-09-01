@@ -1,0 +1,33 @@
+.app{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin:0 auto;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.soft-dark{
+    color: rgb(110, 102, 102);
+}
+
+.point{
+    cursor: pointer;
+}
+
+.f-a{
+    display: flex;
+    align-content: center;
+}
+
+@media screen and (max-width: 910px){
+    .hide{
+        display: none !important;
+    }
+
+    .show{
+        display: inline-block;
+    }
+}

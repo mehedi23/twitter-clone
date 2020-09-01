@@ -1,0 +1,42 @@
+.tweet-box {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    display: flex;
+    padding: 10px 5px;
+}
+
+.avatar>textarea {
+    width: 100%;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    resize: none;
+}
+
+.tweet-box-btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.upload-box{
+    margin: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.tweetBtn {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    background-color: #59b7fa !important;
+    text-transform: inherit !important;
+    color: #ffffff !important;
+    padding: 8px 20px !important;
+    margin-bottom: 10px !important;
+    border-radius: 30px !important;
+}

@@ -1,0 +1,37 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-right: 20px;
+}
+
+.sidebarOption:hover{
+    background-color: #b0d8f7;
+    color: #ffffff;
+}
+
+.sidebarOption--active{
+    color:#aed3ee;
+}
+
+.sidebarOption > .MuiSvgIcon-root{
+    font-size: 50px;
+    padding: 15px;
+}
+
+.sidebarOption > h1{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1150px){
+    .sidebarOption > h1{
+        display: none;
+    }
+
+    .sideBar{
+        width: 70px;
+    }
+}

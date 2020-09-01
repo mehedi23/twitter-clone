@@ -1,0 +1,22 @@
+.twitter-icon{
+    font-size: 30px !important;
+    color: #59b7fa !important;
+    margin: 20px;
+}
+
+.sideBar{
+    padding-right: 20px;
+    margin-top: 10px;
+    width: 260px;
+}
+
+.sidebarTweet{
+    font-size: 16px !important;
+    font-weight: bold !important;
+    background-color: #59b7fa !important;
+    text-transform: inherit !important;
+    color: #ffffff !important;
+    padding: 8px !important;
+    margin: 10px 0!important;
+    border-radius: 30px !important;
+}

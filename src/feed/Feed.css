@@ -1,0 +1,38 @@
+.feed {
+    border-right: 1px solid #d1ecff;
+    border-left: 1px solid #d1ecff;
+    width: 700px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgb(230, 230, 230);
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed-header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #d1ecff;
+    z-index: 9;
+}
+
+.head {
+    font-size: 20px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1150px){
+    .feed{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .feed{
+        width: 100%;
+    }
+}
